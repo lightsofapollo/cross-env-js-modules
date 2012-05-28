@@ -7,5 +7,7 @@ package:
 	cat lib/module.js >> module.js
 	cat lib/alert.js >> module.js
 	cat lib/ws.js >> module.js
+	cat lib/sub/leaf.js >> module.js
+	cat lib/sub/index.js >> module.js
 	cat lib/index.js >> module.js
 

@@ -1,8 +1,9 @@
 #! /usr/bin/env node
 
-var Module = require('../lib/');
+var WS = require('../lib/ws');
 
-var ws = new Module.ws();
+var ws = new WS();
 
 ws.alert();
 
+require('../lib/sub/leaf')();
