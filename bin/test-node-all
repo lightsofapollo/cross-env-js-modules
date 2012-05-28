@@ -1,0 +1,8 @@
+#! /usr/bin/env node
+
+var Module = require('../lib'),
+    instance = new Module.ws();
+
+instance.alert();
+Module.Sub.Leaf();
+
